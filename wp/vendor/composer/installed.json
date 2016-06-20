@@ -102,29 +102,6 @@
         ]
     },
     {
-        "name": "wpackagist-plugin/wordpress-seo",
-        "version": "dev-trunk",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "svn",
-            "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-            "reference": "trunk"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://downloads.wordpress.org/plugin/wordpress-seo.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "time": "2016-05-06 09:15:10",
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/wordpress-seo/"
-    },
-    {
         "name": "wpackagist-theme/ultrabootstrap",
         "version": "1.0.8",
         "version_normalized": "1.0.8.0",
@@ -145,6 +122,28 @@
         "type": "wordpress-theme",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/themes/ultrabootstrap/"
+    },
+    {
+        "name": "wpackagist-plugin/wordpress-seo",
+        "version": "3.3.1",
+        "version_normalized": "3.3.1.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+            "reference": "tags/3.3.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.3.1.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wordpress-seo/"
     },
     {
         "name": "wpackagist-plugin/advanced-custom-fields",

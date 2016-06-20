@@ -2,3 +2,6 @@
 _index.html
 index.html
 wordpress/
+
+# ignore composer-managed content
+wp/wp-content/
