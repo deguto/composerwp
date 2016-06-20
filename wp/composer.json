@@ -1,0 +1,15 @@
+{
+    "name": "acme/brilliant-wordpress-site",
+    "description": "My brilliant WordPress site",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+	"wpackagist-plugin/wordpress-seo": "dev-trunk",
+	"wpackagist-theme/ultrabootstrap": "1.0.8",
+	"wpackagist-plugin/advanced-custom-fields": "dev-trunk"
+    }
+}

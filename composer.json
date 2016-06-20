@@ -1,0 +1,13 @@
+{
+    "name": "deguto/composerwp",
+    "description": "My brilliant Composer WordPress site",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^4.5"
+    }
+}
