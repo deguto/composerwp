@@ -1,6 +1,6 @@
 {
-    "name": "acme/brilliant-wordpress-site",
-    "description": "My brilliant WordPress site",
+    "name": "deguto/composerwp",
+    "description": "My composer based Wordpress",
     "repositories":[
         {
             "type":"composer",
@@ -8,8 +8,9 @@
         }
     ],
     "require": {
-    "wpackagist-plugin/wordpress-seo": "3.3.1",
-	"wpackagist-theme/ultrabootstrap": "1.0.8",
-	"wpackagist-plugin/advanced-custom-fields": "dev-trunk"
+        "wpackagist-plugin/wordpress-seo": "3.3.1",
+        "wpackagist-theme/ultrabootstrap": "1.1.1",
+        "wpackagist-plugin/advanced-custom-fields": "dev-trunk",
+        "wpackagist-plugin/admin-category-tree": "dev-trunk"
     }
 }

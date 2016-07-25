@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "682cf325fb37c04a103ae8665fe28a09",
-    "content-hash": "3126ce718042aecf774dc1a6a7a5c25b",
+    "hash": "fb8cb9cb8681ff60df4f071b927da076",
+    "content-hash": "ad5c4bfa35bcf2aa0393945d6738e3b3",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.25",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e"
+                "reference": "a3595c5272a6f247228abb20076ed27321e4aae9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
-                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "url": "https://api.github.com/repos/composer/installers/zipball/a3595c5272a6f247228abb20076ed27321e4aae9",
+                "reference": "a3595c5272a6f247228abb20076ed27321e4aae9",
                 "shasum": ""
             },
             "require": {
@@ -65,6 +65,7 @@
                 "MODX Evo",
                 "Mautic",
                 "OXID",
+                "RadPHP",
                 "SMF",
                 "Thelia",
                 "WolfCMS",
@@ -80,6 +81,7 @@
                 "dokuwiki",
                 "drupal",
                 "elgg",
+                "expressionengine",
                 "fuelphp",
                 "grav",
                 "installer",
@@ -105,7 +107,28 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-13 19:46:30"
+            "time": "2016-07-05 06:18:20"
+        },
+        {
+            "name": "wpackagist-plugin/admin-category-tree",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/admin-category-tree/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/admin-category-tree.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/admin-category-tree/",
+            "time": "2016-07-06 10:52:45"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
@@ -150,15 +173,15 @@
         },
         {
             "name": "wpackagist-theme/ultrabootstrap",
-            "version": "1.0.8",
+            "version": "1.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/ultrabootstrap/",
-                "reference": "1.0.8"
+                "reference": "1.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/ultrabootstrap.1.0.8.zip",
+                "url": "https://downloads.wordpress.org/theme/ultrabootstrap.1.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -173,7 +196,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wpackagist-plugin/advanced-custom-fields": 20
+        "wpackagist-plugin/advanced-custom-fields": 20,
+        "wpackagist-plugin/admin-category-tree": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

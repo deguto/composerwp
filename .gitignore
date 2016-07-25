@@ -5,3 +5,4 @@ wordpress/
 
 # ignore composer-managed content
 wp/wp-content/
+wp/vendor/composer/
