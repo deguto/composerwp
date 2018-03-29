@@ -10,6 +10,7 @@
     "require": {
         "wpackagist-plugin/wordpress-seo": "3.3.1",
         "wpackagist-theme/ultrabootstrap": "1.1.1",
+        "wpackagist-theme/ultrabootstrap": "1.1.1",
         "wpackagist-plugin/advanced-custom-fields": "dev-trunk",
         "wpackagist-plugin/admin-category-tree": "dev-trunk"
     }
